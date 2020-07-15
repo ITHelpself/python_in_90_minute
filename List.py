@@ -4,3 +4,6 @@ secondList = ["Hello","Hi"]
 jointList = firstList + secondList + ['end']
 print(jointList)
 print(jointList[2:3])
+# append 
+jointList.append(10)
+print(jointList)
