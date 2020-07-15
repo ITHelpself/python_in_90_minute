@@ -15,3 +15,6 @@ intVariable = 1
 stringVariable = "Score: "
 score = stringVariable + str(intVariable)
 print(score)
+# use input
+inputVariable = input("please enter your name: ")
+print(inputVariable)
