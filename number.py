@@ -14,3 +14,20 @@ intNumber = 3
 stringIntNumber = "4"
 testSum = intNumber * int(stringIntNumber)
 print(testSum)
+# use input
+inputVariable = input("please enter your name: ")
+print(inputVariable)
+# global variable
+global variable
+variable = 5
+print(variable)
+# function
+globalX = 5
+def addOne(x):
+    global globalX
+    y = x+1
+    y = globalX + 1
+    return y
+startNumber = -1
+nextNumber = addOne(startNumber)
+print(nextNumber)
