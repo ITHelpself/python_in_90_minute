@@ -1,0 +1,2 @@
+boolValue = True
+print(boolValue)
