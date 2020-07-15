@@ -14,9 +14,6 @@ intNumber = 3
 stringIntNumber = "4"
 testSum = intNumber * int(stringIntNumber)
 print(testSum)
-# use input
-inputVariable = input("please enter your name: ")
-print(inputVariable)
 # global variable
 global variable
 variable = 5
@@ -31,3 +28,11 @@ def addOne(x):
 startNumber = -1
 nextNumber = addOne(startNumber)
 print(nextNumber)
+# if...elseif... else
+testVariable = 10
+if testVariable <10:
+    print("value less than 10")
+elif testVariable == 10:
+    print("value more than 10")
+else:
+    print("value greater than 10")
