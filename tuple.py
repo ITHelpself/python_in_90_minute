@@ -1,0 +1,7 @@
+testTuple = (2,)
+secondTuple = ("Hello","World")
+print(testTuple)
+print(secondTuple)
+print(testTuple + secondTuple)
+print(testTuple[0])
+print(secondTuple[0:])
