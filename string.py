@@ -10,3 +10,8 @@ print(multipleString)
 print(firstString[1])
 print(secondString[-1])
 print(additionString[0:3])
+# string coversion
+intVariable = 1
+stringVariable = "Score: "
+score = stringVariable + str(intVariable)
+print(score)

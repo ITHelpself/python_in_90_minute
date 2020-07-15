@@ -8,4 +8,9 @@ subtractionResult = intVariable - floatVariable
 print(subtractionResult)
 multipleResult = intVariable * floatVariable
 divisionResult = intVariable / floatVariable
-modulusResult = intvariable % 3
+modulusResult = intVariable % 3
+# number coversion
+intNumber = 3
+stringIntNumber = "4"
+testSum = intNumber * int(stringIntNumber)
+print(testSum)
